@@ -1,7 +1,7 @@
 function Header () {
     return (
         <div id="EnterView">
-      <div class="_t1">Keita Yamada</div>
+      <div class="_t1">Sofía Fornaroli</div>
       <div class="_t2">Portfolio</div>
     <div id="Page"></div>
       <div id="Background"><canvas></canvas></div>
