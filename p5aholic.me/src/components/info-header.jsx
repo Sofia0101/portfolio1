@@ -1,7 +1,7 @@
 function InfoHeader () {
     return (
         <header className="siteHeader" id="SiteHeader">
-        <h1 class="siteHeader_title">Keita Yamada</h1>
+        <h1 class="siteHeader_title">Sofía Fornaroli</h1>
         <p class="siteHeader_label">Designer & Developer</p>
         <nav class="siteHeader_nav" x-data>
           <ol>
