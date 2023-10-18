@@ -7,18 +7,18 @@ function Info () {
               <li>
                 <a
                   class="text-btn"
-                  href="../experiments.p5aholic.me/index.html"
+                  href="#"
                   target="_blank"
                   rel="noopener"
-                  >experiments.p5aholic.me ↗</a>
+                  >Proyects ↗</a>
               </li>
               <li>
                 <a
                   class="text-btn"
-                  href="../playground.p5aholic.me/index.html"
+                  href="#"
                   target="_blank"
                   rel="noopener"
-                  >playground.p5aholic.me ↗</a>
+                  >more projects ↗</a>
               </li>
             </ul>
           </div>

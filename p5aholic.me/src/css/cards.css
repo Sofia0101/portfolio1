@@ -1,0 +1,6 @@
+.cards_content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
