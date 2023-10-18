@@ -1,36 +1,47 @@
 function Header () {
     return (
-        <header class="siteHeader" id="SiteHeader">
-        <h1 class="siteHeader_title">Keita Yamada</h1>
-        <p class="siteHeader_label">Designer & Developer</p>
-        <nav class="siteHeader_nav" x-data>
-          <ol>
-            <li class="{ 'is-selected': $store.app.currentPath === '/' }">
-              <div class="_dot">&#x25cf;</div>
-              <a class="_text" href="index.html">Home</a>
-            </li>
-            <li
-              class="{ 'is-selected': $store.app.currentPath === '/projects/' }"
-            >
-              <div class="_dot">&#x25cf;</div>
-              <a class="_text" href="projects/index.html">Projects</a>
-            </li>
-            <li 
-            class="{ 'is-selected:' $store.app.currentPath === '/info/' }"
-            >
-              <div class="_dot">&#x25cf;</div>
-              <a class="_text" href="info/index.html">Info</a>
-            </li>
-            <li
-              class="{ 'is-selected': $store.app.currentPath === '/contact/' }"
-            >
-              <div class="_dot">&#x25cf;</div>
-              <a class="_text" href="contact/index.html">Contact</a>
-            </li>
-          </ol>
-        </nav>
-      </header>
-    )
-};
+        <div id="EnterView">
+      <div class="_t1">Keita Yamada</div>
+      <div class="_t2">Portfolio</div>
+    <div id="Page"></div>
+      <div id="Background"><canvas></canvas></div>
+      <div class="mask" id="Mask">
+        <div class="mask_top"></div>
+        <div class="mask_bottom"></div>
+      </div>
+      <div class="frame" id="Frame">
+        <div class="frame_line frame_line-left"></div>
+        <div class="frame_line frame_line-right"></div>
+        <div class="frame_line frame_line-top"></div>
+        <div class="frame_line frame_line-bottom"></div>
+      </div>
+      <div class="theme" id="Theme" x-data>
+        <div class="theme_colors" click= "$store.app.toggleTheme()">
+          <div
+            class="theme_btn"
+            className="{ 'is-selected': $store.app.theme === 'light' }"
+  >
+            <div class="_box"></div>
+            <div class="_text">Light</div>
+          </div>
+          <div
+            class="theme_btn"
+            className="{ 'is-selected': $store.app.theme === 'dark' }" >
+            <div class="_box"></div>
+            <div class="_text">Dark</div>
+          </div>
+        </div>
+        <div
+          class="theme_btn"
+          className="{ 'is-selected': $store.app.fontStyle === 'mono' }"
+          click= "$store.app.toggleFontStyle()" >
+          <div class="_box"></div>
+          <div class="_text">Monospaced</div>
+        </div>
+      </div>
+      </div>
+        
+    );
+}
 
 export default Header;
