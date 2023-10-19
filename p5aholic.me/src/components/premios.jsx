@@ -1,4 +1,4 @@
-function Info () {
+function Info (props) {
     return (
         <section class="page" data-page="info">
         <div class="info_item info_item-2">

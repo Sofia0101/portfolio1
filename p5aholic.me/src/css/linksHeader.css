@@ -1,0 +1,32 @@
+.ol__nav{
+    display: flex;
+    list-style: none;
+   
+    
+}
+
+.li__header{
+    padding: 0 0 2rem 0;
+}
+
+._text{
+    color: black;
+    margin: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.first_text{
+    margin-left: 0px;
+    color: black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+._text:hover{
+    color: grey;
+}
+
