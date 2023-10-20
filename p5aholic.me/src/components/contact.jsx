@@ -1,17 +1,17 @@
 function Contacto() {
   return (
-    <section class="page" data-page="contact">
-      <div class="page_content contact">
-        <div class="contact_wrap">
+    <section className="page" data-page="contact">
+      <div className="page_content contact">
+        <div className="contact_wrap">
           <a
-            class="contact_text jp text-btn"
+            className="contact_text jp text-btn"
             href="#"
             target="_blank"
             rel="noopener">
             Contact Form ↗
           </a>
           <a
-            class="contact_text en text-btn"
+            className="contact_text en text-btn"
             href="#"
             target="_blank"
             rel="noopener">

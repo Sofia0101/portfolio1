@@ -1,8 +1,9 @@
 import "./css/cards.css";
 import"./css/linksHeader.css";
-import "./css/navBar.css"
-import "./css/aboutMe.css"
-import"./css/header.css"
+import "./css/navBar.css";
+import "./css/aboutMe.css";
+import"./css/header.css";
+import "./css/background.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/header";
@@ -13,30 +14,34 @@ import Contacto from "./components/contact";
 import Navi from "./components/NavBar";
 import LinksHeader from "./components/linksHeader";
 
+const background = new URL("./img/back.jpg", import.meta.url)
 
 
 function App() {
   return (
     <>
+     <section className="back__img">
       <div>
-        <div
-          style={{
-            // backgroundImage: `url("https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`,
-            // backgroundRepeat: "no-repeat",
-            backgroundColor: "white",
-          }}
-        >
+
+    {/* <img src={background} 
+    
+    
+    /> */}
+
+
+          
+
           <Navi />
           <Header />
-          <main class="content" id="Content" data-scroll="area"></main>
-          <div class="content_inner" data-scroll="target"></div>
+          <main className="content" id="Content" data-scroll="area"></main>
+          <div className="content_inner" data-scroll="target"></div>
           <Aboutme />
           <LinksHeader />
           <Proyects />
           <Info />
           <Contacto />
         </div>
-      </div>
+        </section>
     </>
   );
 }

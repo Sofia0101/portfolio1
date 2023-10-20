@@ -1,8 +1,8 @@
 function Aboutme() {
   return (
-    <section class="page" data-page="home">
-      <div class="page_content home">
-        <p class="home_aboutme">
+    <section className="page" data-page="home">
+      <div className="page_content home">
+        <p className="home_aboutme">
           Born in 1994 in Osaka, Japan.
           I believe
           web design 
