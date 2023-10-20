@@ -1,6 +1,8 @@
 .ol__nav{
     display: flex;
     list-style: none;
+    padding-left: 37%;
+    padding-top: 2rem;
    
     
 }
@@ -10,7 +12,7 @@
 }
 
 ._text{
-    color: black;
+    color: wheat;
     margin: 15px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -20,7 +22,7 @@
 
 .first_text{
     margin-left: 0px;
-    color: black;
+    color: wheat;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -30,3 +32,6 @@
     color: grey;
 }
 
+.first_text:hover{
+    color: grey;
+}

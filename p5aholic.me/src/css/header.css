@@ -1,17 +1,24 @@
 .siteHeader_title{
+    text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     font-weight: normal;
     padding: 3rem 2rem;
+    color:rgb(242, 242, 254);
+    display: flex;
+    justify-content: center;
 }
 
 .siteHeader_label{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: azure;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    padding: 0 0 0 2rem;
 }

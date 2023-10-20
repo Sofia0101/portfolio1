@@ -15,6 +15,18 @@ function Aboutme() {
           I am pursuin <br />
           expressions
           through experiments
+          and thoughts. <br />
+          I believe
+          web design 
+          can be <br /> more
+          diverse and inspiring. 
+          With a mission
+          to present <br />
+          the possibilities
+          of web design.
+          I am pursuin <br />
+          expressions
+          through experiments
           and thoughts.
         </p>
       </div>
