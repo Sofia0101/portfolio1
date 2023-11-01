@@ -1,7 +1,18 @@
 .navbar {
     margin: auto;
+    font-weight: 700;
+    
+
 }
 
 .navbar-brand{
     padding-left: 77%;
+
+}
+.pr_link, .seg_link, .ter_link, .cuar_link{
+    color: beige;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 23px;
 }

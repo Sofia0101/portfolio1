@@ -16,7 +16,7 @@ import Contacto from "./components/contact";
 import Navi from "./components/NavBar";
 import LinksHeader from "./components/linksHeader";
 
-const background = new URL("./img/back.jpg", import.meta.url)
+const background = new URL("./img/back2.jpg", import.meta.url)
 
 
 function App() {

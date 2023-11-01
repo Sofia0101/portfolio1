@@ -35,7 +35,7 @@ function Proyects() {
 </div>
 
 <div>
-<Card style={{ width: '18rem',height: "21rem" }}>
+<Card style={{  width: '18rem',height: "21rem" }}>
   <Card.Img variant="top" src=""/>
   <Card.Body>
     <Card.Title>ILY GIRL</Card.Title>
