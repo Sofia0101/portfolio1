@@ -10,7 +10,7 @@ function Proyects() {
 
 <div className="d-flex justify-content-around">
 <Card style={{ width: '18rem', height: "21rem" }}>
-  <Card.Img variant="top" src="../Vector.png"/>
+  <Card.Img variant="top" src="../logo192.png"/>
   <Card.Body>
     <Card.Title>Projects (Design & Develop)</Card.Title>
     <Card.Text>

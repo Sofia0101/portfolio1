@@ -6,9 +6,10 @@ function Navi() {
     <Container>
       <Navbar.Brand href="#home">Home</Navbar.Brand>
       <Nav className="me-auto">
-        <Nav.Link className="primer_link" href="#home">Home</Nav.Link>
         <Nav.Link className="seg_link"href="#features">Projects</Nav.Link>
         <Nav.Link className="ter_link" href="#pricing">Contact</Nav.Link>
+        <Nav.Link className="primer_link" href="#home">Info</Nav.Link>
+
       </Nav>
     </Container>
   </Navbar>

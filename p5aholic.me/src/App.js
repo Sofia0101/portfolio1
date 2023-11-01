@@ -4,12 +4,14 @@ import "./css/navBar.css";
 import "./css/aboutMe.css";
 import"./css/header.css";
 import "./css/background.css";
+import "./css/contact.css";
+import "./css/info.css"
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/header";
 import Aboutme from "./components/aboutme";
 import Proyects from "./components/proyects";
-import Info from "./components/premios";
+import Info from "./components/info";
 import Contacto from "./components/contact";
 import Navi from "./components/NavBar";
 import LinksHeader from "./components/linksHeader";

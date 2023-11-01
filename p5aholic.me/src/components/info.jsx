@@ -3,29 +3,29 @@ function Info (props) {
         <section className="page" data-page="info">
         <div className="info_item info_item-2">
           <div className="info_content">
-            <ul>
-              <li>
+            <ul className="info__abt">
+              <li className="btn__li">
                 <a
                   className="text-btn"
                   href="#"
                   target="_blank"
                   rel="noopener"
-                  >Proyects ↗</a>
+                  >Proyects 1 ↗</a>
               </li>
-              <li>
+              <li className="btn__li">
                 <a
                   className="text-btn"
                   href="#"
                   target="_blank"
                   rel="noopener"
-                  >more projects ↗</a>
+                  >Projects 2 ↗</a>
               </li>
             </ul>
           </div>
         </div>
         <div className="info_item info_item-3">
           <div className="info_content">
-            <ul>
+            <ul className="info__extra">
               <li>
                 <span className="is-light"
                   >Awwwards Independent of the Year<br /></span>

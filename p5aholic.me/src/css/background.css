@@ -1,4 +1,5 @@
 .back__img{
     background-image: url("../img/back.jpg");
+    background-repeat: round;
 }
 
