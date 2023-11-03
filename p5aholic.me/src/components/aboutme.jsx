@@ -3,7 +3,7 @@ function Aboutme() {
     <section className="page" data-page="home">
       <div className="page_content home">
         <p className="home_aboutme">
-          Born in 1994 in Osaka, Japan.
+          Born in 1998 in Buenos Aires, Argentina.
           I believe
           web design 
           can be <br /> more
