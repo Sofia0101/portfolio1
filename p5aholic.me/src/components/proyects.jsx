@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Placeholder from 'react-bootstrap/Placeholder';
+import imagen1 from '../img/back2.jpg';
 
 
 function Proyects() {
@@ -10,8 +11,10 @@ function Proyects() {
 
 <div className="d-flex justify-content-around">
 <Card style={{ width: '18rem', height: "21rem" }}>
-  <Card.Img variant="top" src="../logo192.png"/>
+  <Card.Img variant="top" src={imagen1} />
+
   <Card.Body>
+    
     <Card.Title>Projects (Design & Develop)</Card.Title>
     <Card.Text>
     2023 / Commission / Special
@@ -23,7 +26,7 @@ function Proyects() {
 
 <div>
 <Card style={{ width: '18rem', height: "21rem" }}>
-  <Card.Img variant="top" src=""/>
+<Card.Img variant="top" src={imagen1} />
   <Card.Body>
     <Card.Title>BNN Online Store</Card.Title>
     <Card.Text>
@@ -36,7 +39,7 @@ function Proyects() {
 
 <div>
 <Card style={{  width: '18rem',height: "21rem" }}>
-  <Card.Img variant="top" src=""/>
+<Card.Img variant="top" src={imagen1} />
   <Card.Body>
     <Card.Title>ILY GIRL</Card.Title>
     <Card.Text>

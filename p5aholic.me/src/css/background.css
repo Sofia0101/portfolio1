@@ -1,5 +1,10 @@
-.back__img{
-    background-image: url("../img/back2.jpg");
-    background-repeat: round;
+.back__img
+{
+    background: radial-gradient(circle at 30% 33%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 8%, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 37%, rgba(13, 13, 13, 0.97) 77%);
 }
+    /* {
+        background: radial-gradient(circle at 0% 41%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 8%, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 26%, rgba(0, 0, 0, 1) 34%, rgba(0, 0, 0, 1) 43%, rgba(0, 0, 0, 1) 48%, rgba(0, 0, 0, 0.92) 100%);
 
+
+}
+ */
