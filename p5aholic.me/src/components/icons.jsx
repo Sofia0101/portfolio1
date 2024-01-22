@@ -6,7 +6,7 @@ import imagen4 from "../img/emaill.png";
 
 function Info(props) {
   return (
-    <div className="icons__list" id="icons">
+    <div className="icons__list" id="contact">
       <div>
         <img className="linkedin_icon" src={imagen1} alt="linkedin" />
       </div>

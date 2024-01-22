@@ -4,7 +4,7 @@ function Navi() {
   return (
     <Navbar bg="highlight" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand className="pr_link" href="#home">
+        <Navbar.Brand className="pr_link" href="/">
           Home
         </Navbar.Brand>
         <Nav className="me-auto">

@@ -10,7 +10,7 @@ import Myproyect from "./myproyect";
 
 function Proyects() {
   return (
-    <div className="proyectos_components">
+    <div className="proyectos_components" id="projects">
       <div className="tercerproyecto">
         <Myproyect
           titulo="pirulo"

@@ -12,7 +12,6 @@ import Header from "./components/header";
 import Aboutme from "./components/aboutme";
 import Proyects from "./components/proyects";
 import Info from "./components/icons";
-import Contacto from "./components/contact";
 import Navi from "./components/NavBar";
 import UncontrolledExample from "./components/slides";
 
@@ -22,7 +21,7 @@ function App() {
       <section className="back__img">
         <div>
           <Navi />
-          <UncontrolledExample />
+          {/* <UncontrolledExample /> */}
 
           <Header />
           <main className="content" id="Content" data-scroll="area"></main>
