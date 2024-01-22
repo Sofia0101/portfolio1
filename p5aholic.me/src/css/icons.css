@@ -1,0 +1,17 @@
+.icons__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 70px 120px;
+
+}
+
+.icon{
+    font-size: 20px;
+}
+
+.instagram_icon, .github_icon, .email_icon, .linkedin_icon{
+    width: 65px;
+    margin: 0 2rem;
+}
+

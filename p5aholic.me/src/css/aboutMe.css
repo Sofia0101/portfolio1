@@ -1,13 +1,25 @@
-.home_aboutme{
- 
-    color: #fff;
-    text-align: center;
-    letter-spacing: 2px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    padding: 2rem;
+.home_aboutme {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 2rem;
+}
+
+.myproyects_title {
+  text-align: center;
+  align-items: center;
+  font-family: "Inter Tight", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  background: #80d7ff;
+  background: linear-gradient(to left, #80d7ff 45%, #ad56dd 66%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

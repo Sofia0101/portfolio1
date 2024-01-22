@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 
 function Contacto(props) {
   return (
-    <section className="page" data-page="contact">
+    <section className="page" data-page="contact" id='contact'>
       <div className="page_content contact">
         <div className="contact_wrap">
         <Form>

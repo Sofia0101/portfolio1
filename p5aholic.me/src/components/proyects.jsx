@@ -1,58 +1,89 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import Placeholder from 'react-bootstrap/Placeholder';
-import imagen1 from '../img/back2.jpg';
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import Placeholder from "react-bootstrap/Placeholder";
 
+import imagenOrg from "../img/org.jpeg";
+import imagenApeperia from "../img/apeperia.jpeg";
+import imagenGpt3 from "../img/imagenGpt3.jpeg";
+
+import Myproyect from "./myproyect";
 
 function Proyects() {
   return (
-
-  <section className='cards_content'>
-
-<div className="d-flex justify-content-around">
-<Card style={{ width: '18rem', height: "21rem" }}>
-  <Card.Img variant="top" src={imagen1} />
-
-  <Card.Body>
-    
-    <Card.Title>Projects (Design & Develop)</Card.Title>
-    <Card.Text>
-    2023 / Commission / Special
-    </Card.Text>
-    <Button variant="dark">Project</Button>
-  </Card.Body>
-</Card>
-</div>
-
-<div>
-<Card style={{ width: '18rem', height: "21rem" }}>
-<Card.Img variant="top" src={imagen1} />
-  <Card.Body>
-    <Card.Title>BNN Online Store</Card.Title>
-    <Card.Text>
-    2023 / Commission / Corporate
-    </Card.Text>
-    <Button variant="dark">Project</Button>
-  </Card.Body>
-</Card>
-</div>
-
-<div>
-<Card style={{  width: '18rem',height: "21rem" }}>
-<Card.Img variant="top" src={imagen1} />
-  <Card.Body>
-    <Card.Title>ILY GIRL</Card.Title>
-    <Card.Text>
-    2023 / Commission / Special
-    </Card.Text>
-    <Button variant="dark">Project</Button>
-  </Card.Body>
-</Card>
-</div>
-
-</section>
-
+    <div className="proyectos_components">
+      <div className="tercerproyecto">
+        <Myproyect
+          titulo="pirulo"
+          subtitulo="arrrrrja"
+          parrafo="cu655l"
+          imagen={imagenGpt3}
+        />
+      </div>
+      <div className="primerproyecto">
+        <Myproyect
+          titulo="Org"
+          subtitulo="Proyecto realizado con React"
+          parrafo="Proyecto realizado con React. Una página dinámica para crear equipos de trabajo y organizarlos según el puesto."
+          imagen={imagenOrg}
+        />
+      </div>
+      <div className="segundoproyecto">
+        <Myproyect
+          titulo="Apeperia"
+          subtitulo="Apeperia"
+          parrafo="cequisul"
+          imagen={imagenApeperia}
+        />
+      </div>
+    </div>
   );
 }
 
 export default Proyects;
+
+{
+  /* //   <section className='cards_content' id='projects'>
+
+// <div className='card1' >
+// <Card style={{ width: '18rem', height: "21rem" }}>
+//   <Card.Img variant="top" src={imagen1} />
+
+//   <Card.Body>
+    
+//     <Card.Title>Projects (Design & Develop)</Card.Title>
+//     <Card.Text>
+//     2023 / Commission / Special
+//     </Card.Text>
+//     <Button variant="dark">Project</Button>
+//   </Card.Body>
+// </Card>
+// </div>
+
+// <div className='card2'>
+// <Card style={{ width: '18rem', height: "21rem"}}>
+// <Card.Img variant="top" src={imagen1} />
+//   <Card.Body>
+//     <Card.Title>BNN Online Store</Card.Title>
+//     <Card.Text>
+//     2023 / Commission / Corporate
+//     </Card.Text>
+//   <Button href='https://org-tau-ashy.vercel.app' variant="dark">Project</Button>
+//   </Card.Body>
+// </Card>
+// </div>
+
+// <div className='card3'>
+// <Card style={{  width: '18rem',height: "21rem" }}>
+// <Card.Img variant="top" src={imagen1} />
+//   <Card.Body>
+//     <Card.Title>ILY GIRL</Card.Title>
+//     <Card.Text>
+//     2023 / Commission / Special
+//     </Card.Text>
+//     <Button variant="dark">Project</Button>
+//   </Card.Body>
+// </Card>
+// </div>
+
+// </section> */
+}
