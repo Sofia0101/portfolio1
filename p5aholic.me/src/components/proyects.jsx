@@ -11,27 +11,26 @@ import Myproyect from "./myproyect";
 function Proyects() {
   return (
     <div className="proyectos_components" id="projects">
-      <div className="tercerproyecto">
-        <Myproyect
-          titulo="pirulo"
-          subtitulo="arrrrrja"
-          parrafo="cu655l"
-          imagen={imagenGpt3}
-        />
-      </div>
       <div className="primerproyecto">
         <Myproyect
-          titulo="Org"
-          subtitulo="Proyecto realizado con React"
-          parrafo="Proyecto realizado con React. Una página dinámica para crear equipos de trabajo y organizarlos según el puesto."
-          imagen={imagenOrg}
+          titulo="GPT-3"
+          parrafo="Let's build something amazing with GPT-3 OpenAI"
+          imagen={imagenGpt3}
         />
       </div>
       <div className="segundoproyecto">
         <Myproyect
+          titulo="Org"
+          parrafo="Proyecto realizado con React
+          ."
+          imagen={imagenOrg}
+        />
+      </div>
+      <div className="tercerproyecto">
+        <Myproyect
           titulo="Apeperia"
-          subtitulo="Apeperia"
-          parrafo="cequisul"
+          parrafo="cequisul
+          Born in 1998 in Buenos Aires, Argentina."
           imagen={imagenApeperia}
         />
       </div>

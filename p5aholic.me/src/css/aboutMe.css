@@ -1,4 +1,6 @@
 .home_aboutme {
+  width: 60%;
+
   color: #fff;
   text-align: center;
   letter-spacing: 2px;
@@ -22,4 +24,31 @@
   background: linear-gradient(to left, #80d7ff 45%, #ad56dd 66%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.page_content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.arg__imagen{
+  display: flex;
+  height: 124px;
+  margin: 9px;
+}
+
+@media screen and (max-width: 850px) {
+.arg__imagen{
+  height: 124px;
+}
+
+.page_content{
+  align-items: center;
+}
+
+.siteHeader_label{
+  width: 90%;
+}
+  
 }
