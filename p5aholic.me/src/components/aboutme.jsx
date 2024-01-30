@@ -9,7 +9,7 @@ function Aboutme() {
           the possibilities of web design. I am pursuin 
           expressions through experiments and thoughts. <br />
         </p>
-        <img className="arg__imagen" src={argentina} alt="Argentina" />
+        {/* <img className="arg__imagen" src={argentina} alt="Argentina" /> */}
       </div>
       <div className="myproyects_title">
         <h1>My proyects</h1>

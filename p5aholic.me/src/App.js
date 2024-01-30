@@ -6,6 +6,7 @@ import "./css/background.css";
 import "./css/contact.css";
 import "./css/icons.css";
 import "./css/proyects.css";
+import "./css/carousel.css"
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/header";
@@ -21,12 +22,11 @@ function App() {
       <section className="back__img">
         <div>
           <Navi />
-          {/* <UncontrolledExample /> */}
-
           <Header />
           <main className="content" id="Content" data-scroll="area"></main>
           <div className="content_inner" data-scroll="target"></div>
           <Aboutme />
+          <UncontrolledExample />
           <Proyects />
           <Info />
         </div>

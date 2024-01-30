@@ -34,8 +34,9 @@
   align-items: center;
   font-family: "Inter Tight", sans-serif;
   font-weight: 800;
-  background: #80d7ff;
-  background: linear-gradient(to left, #80d7ff 45%, #ad56dd 66%);
+  background: whitesmoke;
+  /* background: #80d7ff; */
+  /* background: linear-gradient(to left, #80d7ff 45%, #ad56dd 66%); */
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }

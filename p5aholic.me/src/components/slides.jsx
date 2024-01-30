@@ -1,40 +1,42 @@
-import Carousel from 'react-bootstrap/Carousel';
-import Image from 'react-bootstrap/Image';
-import Imagen32 from '../img/insta.png';
+import Carousel from "react-bootstrap/Carousel";
+import Image from "react-bootstrap/Image";
+import Imagengpt3 from "../img/imagenGpt3.jpeg";
+import ImagenApeperia from "../img/apeperia.jpeg";
+import ImagenOrg from "../img/org.jpeg";
 
 function UncontrolledExample() {
+
   return (
+    <div className="carousel">
     <Carousel>
       <Carousel.Item>
         <Image
-            className="d-block w-100"
-src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
-            alt="Image Two"
-          /> 
+          className="d-block w-100"
+          src={Imagengpt3}
+          alt="Image Two"
+        />
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-         <img 
-            className="d-block w-100"
-src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
-            alt="Image Two"
-          /> 
-        {/* <ExampleCarouselImage text="Second slide" /> */}
+        <Image
+          className="d-block w-100"
+          src={ImagenOrg}
+          alt="Image Two"
+        />
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-                <img 
-            className="d-block w-100"
-src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
-            alt="Image Two"
-          /> 
-        {/* <Imagen32 text="Third slide" /> */}
+        <Image
+          className="d-block w-100"
+          src={ImagenApeperia}
+          alt="Image Two"
+        />
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
@@ -43,6 +45,7 @@ src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
   );
 }
 
