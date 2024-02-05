@@ -8,16 +8,18 @@ function Info(props) {
   return (
     <div className="icons__list" id="contact">
       <div>
-        <img className="linkedin_icon" src={imagen1} alt="linkedin" />
+      <a href="www.linkedin.com/in/sofía-fornaroli
+
+"><img className="linkedin_icon" src={imagen1} alt="linkedin" /></a>  
       </div>
       <div>
-        <img className="github_icon" src={imagen2} alt="github" />
+        <a href="https://github.com/Sofia0101"><img className="github_icon" src={imagen2} alt="github" /></a>
       </div>
       <div>
-        <img className="instagram_icon" src={imagen3} alt="instagram" />
+      <a href="https://www.instagram.com/sofiafornaroli/">  <img className="instagram_icon" src={imagen3} alt="instagram" /></a>
       </div>
       <div>
-        <img className="instagram_icon" src={imagen4} alt="email" />
+       <a href=""> <img className="email_icon" src={imagen4} alt="email" /></a>
       </div>
     </div>
   );
