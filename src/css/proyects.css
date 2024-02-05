@@ -70,7 +70,7 @@
 .proyectos_components{
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
+  overflow: auto;
 }
-
