@@ -7,7 +7,6 @@ import "./css/icons.css";
 import "./css/proyects.css";
 import "./css/description.css";
 
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/header";
 import Aboutme from "./components/aboutme";

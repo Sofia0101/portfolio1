@@ -5,9 +5,11 @@ function Aboutme() {
     <section className="page" data-page="home">
       <div className="page_content home">
         <p className="home_aboutme">
-          Born in 1998 in Buenos Aires, Argentina. <br /> I believe web design can be more diverse and inspiring. <br /> With a mission to present 
-          the possibilities of web design. I am pursuin 
-          expressions through experiments and thoughts. <br />
+       
+I was born in 1998 in Buenos Aires, Argentina. <br />
+I think web design can be more diverse and inspiring.
+My aspiration is to present the possibilities of web design​​​☄️
+The activities that I enjoy the most are listening to music and singing, which encourage me to find new ideas💡​
         </p>
         {/* <img className="arg__imagen" src={argentina} alt="Argentina" /> */}
       </div>
