@@ -1,19 +1,21 @@
 .home_aboutme {
-  width: 60%;
+  width: 600px;
 
   color: #fff;
-  text-align: center;
   letter-spacing: 2px;
   display: flex;
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  padding: 2rem;
+  padding: 3rem 2rem;
+  padding-left: 36px;
+
 }
 
 .myproyects_title {
+
   text-align: center;
   align-items: center;
   font-family: "Inter Tight", sans-serif;
@@ -23,13 +25,19 @@
   background: #80d7ff;
   background: linear-gradient(to left, #80d7ff 45%, #ad56dd 66%);
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+
+  
 }
 
 .page_content {
   width: 100%;
   display: flex;
-  justify-content: center;
+  text-align: left;
 }
 
 .arg__imagen{
