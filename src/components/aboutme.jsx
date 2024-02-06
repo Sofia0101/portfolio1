@@ -11,9 +11,9 @@ function Aboutme() {
         </p>
         {/* <img className="arg__imagen" src={argentina} alt="Argentina" /> */}
       </div>
-      <div className="myproyects_title">
+      {/* <div className="myproyects_title">
         <h1>My proyects</h1>
-      </div>
+      </div> */}
     </section>
   );
 }
