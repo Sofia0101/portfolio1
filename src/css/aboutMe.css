@@ -1,17 +1,21 @@
 .home_aboutme {
-  width: 600px;
-
-  color: #fff;
-  letter-spacing: 2px;
+  width: 755px;
+  padding: 3rem 2rem;
   display: flex;
   justify-content: center;
+
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 2.5rem;
   /* text-align: center; */
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 400;
-  padding: 3rem 2rem;
-  padding-left: 36px;
 
+}
+
+.lf-player-container{
+  margin: -25px auto;
 }
 
 .myproyects_title {
@@ -38,13 +42,9 @@
   width: 100%;
   display: flex;
   text-align: left;
+  /* justify-content: space-evenly; */
 }
 
-.arg__imagen{
-  display: flex;
-  height: 124px;
-  margin: 9px;
-}
 
 @media screen and (max-width: 850px) {
 .arg__imagen{

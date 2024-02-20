@@ -26,13 +26,7 @@ function App() {
           <main className="content" id="Content" data-scroll="area"></main>
           <div className="content_inner" data-scroll="target"></div>
           <Aboutme />
-          <Player
-            src="https://assets1.lottiefiles.com/packages/lf20_myejiggj.json"
-            className="player"
-            loop
-            autoplay
-            style={{width: "300px",}}
-          />
+        
           <Proyects />
           <Description />
           <Info />
