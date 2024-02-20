@@ -16,6 +16,7 @@ function Proyects() {
           titulo="GPT-3"
           parrafo="Let's build something amazing with GPT-3 OpenAI"
           imagen={imagenGpt3}
+          hreflink="https://google.com"
         />
       </div>
       <div className="segundoproyecto">
@@ -24,6 +25,7 @@ function Proyects() {
           parrafo="Proyecto realizado con React
           ."
           imagen={imagenOrg}
+          hreflink="https://org-tau-ashy.vercel.app"
         />
       </div>
       <div className="tercerproyecto">
@@ -32,6 +34,8 @@ function Proyects() {
           parrafo="cequisul
           Born in 1998 in Buenos Aires, Argentina."
           imagen={imagenApeperia}
+          hreflink="https://ap-shop.vercel.app"
+          
         />
       </div>
     </div>

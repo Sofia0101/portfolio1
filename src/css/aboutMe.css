@@ -15,7 +15,7 @@
 }
 
 .lf-player-container{
-  margin: -25px auto;
+  margin: -25px;
 }
 
 .myproyects_title {
@@ -42,7 +42,7 @@
   width: 100%;
   display: flex;
   text-align: left;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
 }
 
 

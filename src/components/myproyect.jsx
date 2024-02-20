@@ -1,12 +1,13 @@
 import React from 'react';
 
 
-const Myproyect = ({titulo, parrafo, subtitulo, imagen}) => {
+const Myproyect = ({titulo, parrafo, subtitulo, imagen, hreflink}) => {
   return (
 
 
 
     <div className="myproyects_list" >
+      <a href={hreflink}>
       <div className="proyect_img">
         <img src={imagen} alt="proyect" />
       </div>
@@ -19,6 +20,7 @@ const Myproyect = ({titulo, parrafo, subtitulo, imagen}) => {
          {parrafo}
         </p>
       </div>
+      </a>
     </div>
 
         );

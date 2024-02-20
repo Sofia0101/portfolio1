@@ -8,7 +8,7 @@ function Info(props) {
   return (
     <div className="icons__list" id="contact">
       <div>
-      <a href="www.linkedin.com/in/sofía-fornaroli
+      <a href="https://www.linkedin.com/in/sofía-fornaroli
 
 "><img className="linkedin_icon" src={imagen1} alt="linkedin" /></a>  
       </div>
@@ -19,7 +19,7 @@ function Info(props) {
       <a href="https://www.instagram.com/sofiafornaroli/">  <img className="instagram_icon" src={imagen3} alt="instagram" /></a>
       </div>
       <div>
-       <a href=""> <img className="email_icon" src={imagen4} alt="email" /></a>
+       <a href="mailto: sofiafornaroli98@gmail.com"> <img className="email_icon" src={imagen4} alt="email" /></a>
       </div>
     </div>
   );
