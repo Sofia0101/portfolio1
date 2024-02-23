@@ -1,7 +1,7 @@
 .myproyects_list {
   display: flex;
   flex-direction: column;
-  padding: 4rem 6rem;
+  padding: 1rem;
 }
 
 
@@ -35,8 +35,6 @@
   font-family: "Inter Tight", sans-serif;
   font-weight: 800;
   background: whitesmoke;
-  /* background: #80d7ff; */
-  /* background: linear-gradient(to left, #80d7ff 45%, #ad56dd 66%); */
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -72,5 +70,57 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
+  margin: 10%;
+
+}
+
+
+.my-projects-title{
+  display: flex;
+
+  margin-bottom: 3rem;
+
+  font-family: "Inter Tight", sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  color: rgb(242, 242, 254);
+
+  
+}
+
+.palito {
+  
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 0.0; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 0.1; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 0.9; }
+   50% { opacity: 0; }
+  100% { opacity: 1.0; }
+}
+
+
+a:link{
+  text-decoration: none;
 }

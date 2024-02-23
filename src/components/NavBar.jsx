@@ -7,14 +7,17 @@ function Navi() {
         <Navbar.Brand className="pr_link" href="/">
           Home
         </Navbar.Brand>
-        <Nav className="me-auto">
-          <Nav.Link className="seg_link" href="#projects">
+    
+          <Nav.Link className="seg_link hover-3" href="#projects">
             Projects
           </Nav.Link>
-          <Nav.Link className="ter_link" href="#contact">
+          <Nav.Link className="ter_link hover-3" href="#contact">
             Contact
           </Nav.Link>
-        </Nav>
+          <Nav.Link className="cuarto_link hover-3" href="#">
+            About me
+          </Nav.Link>
+   
       </Container>
     </Navbar>
   );

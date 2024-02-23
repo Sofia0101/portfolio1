@@ -1,5 +1,3 @@
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 import Placeholder from "react-bootstrap/Placeholder";
 
 import imagenOrg from "../img/org.jpeg";
@@ -10,11 +8,14 @@ import Myproyect from "./myproyect";
 
 function Proyects() {
   return (
+    
     <div className="proyectos_components" id="projects">
+      <h3 className="my-projects-title">My projects<h1 className="palito">|</h1></h3>
+      
       <div className="primerproyecto">
         <Myproyect
           titulo="GPT-3"
-          parrafo="Let's build something amazing with GPT-3 OpenAI"
+          parrafo=""
           imagen={imagenGpt3}
           hreflink="https://google.com"
         />
@@ -22,8 +23,7 @@ function Proyects() {
       <div className="segundoproyecto">
         <Myproyect
           titulo="Org"
-          parrafo="Proyecto realizado con React
-          ."
+          parrafo=""
           imagen={imagenOrg}
           hreflink="https://org-tau-ashy.vercel.app"
         />
@@ -31,8 +31,7 @@ function Proyects() {
       <div className="tercerproyecto">
         <Myproyect
           titulo="Apeperia"
-          parrafo="cequisul
-          Born in 1998 in Buenos Aires, Argentina."
+          parrafo=""
           imagen={imagenApeperia}
           hreflink="https://ap-shop.vercel.app"
           
@@ -44,49 +43,3 @@ function Proyects() {
 
 export default Proyects;
 
-{
-  /* //   <section className='cards_content' id='projects'>
-
-// <div className='card1' >
-// <Card style={{ width: '18rem', height: "21rem" }}>
-//   <Card.Img variant="top" src={imagen1} />
-
-//   <Card.Body>
-    
-//     <Card.Title>Projects (Design & Develop)</Card.Title>
-//     <Card.Text>
-//     2023 / Commission / Special
-//     </Card.Text>
-//     <Button variant="dark">Project</Button>
-//   </Card.Body>
-// </Card>
-// </div>
-
-// <div className='card2'>
-// <Card style={{ width: '18rem', height: "21rem"}}>
-// <Card.Img variant="top" src={imagen1} />
-//   <Card.Body>
-//     <Card.Title>BNN Online Store</Card.Title>
-//     <Card.Text>
-//     2023 / Commission / Corporate
-//     </Card.Text>
-//   <Button href='https://org-tau-ashy.vercel.app' variant="dark">Project</Button>
-//   </Card.Body>
-// </Card>
-// </div>
-
-// <div className='card3'>
-// <Card style={{  width: '18rem',height: "21rem" }}>
-// <Card.Img variant="top" src={imagen1} />
-//   <Card.Body>
-//     <Card.Title>ILY GIRL</Card.Title>
-//     <Card.Text>
-//     2023 / Commission / Special
-//     </Card.Text>
-//     <Button variant="dark">Project</Button>
-//   </Card.Body>
-// </Card>
-// </div>
-
-// </section> */
-}
