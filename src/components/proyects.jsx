@@ -17,7 +17,7 @@ function Proyects() {
           titulo="GPT-3"
           parrafo=""
           imagen={imagenGpt3}
-          hreflink="https://google.com"
+          hreflink="https://gpt-3.vercel.app"
         />
       </div>
       <div className="segundoproyecto">
