@@ -1,7 +1,5 @@
-.siteHeader_title{
+/* .siteHeader_title{
     text-align: center;
-    /* letter-spacing: 2px; */
-    /* text-transform: uppercase; */
     font-family: 'Inter Tight', sans-serif;
     font-size: 3rem;
     font-weight: normal;
@@ -15,17 +13,6 @@
 
 }
 
-.siteHeader_title1{
-    text-align: center;
-    font-family: 'Inter Tight', sans-serif;
-    font-size: 3rem;
-    font-weight: normal;
-    padding: 1rem 2rem;
-    color:rgb(242, 242, 254);
-    display: flex;
-    font-size: 80px;
-    text-align: inherit;
-}
 
 .siteHeader_label{
     text-align: center;
@@ -33,7 +20,6 @@
     justify-content: center;
     color: azure;
     letter-spacing: 2px;
-    /* text-transform: uppercase; */
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -43,9 +29,10 @@
 
 .siteHeader{
     display: flex;
+    padding: 3rem 2rem;
     justify-content: center;
 }
 
 .Header__t{
     line-height: 1rem;
-}
+} */

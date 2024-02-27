@@ -1,0 +1,36 @@
+.aboutme_p {
+    width: 50%;
+  
+    color: #fff;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 2rem;
+  }
+  
+  
+  .aboutme_div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .title_aboutme{
+    text-align: center;
+
+    margin-bottom: 3rem;
+
+  font-family: "Inter Tight", sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  color: rgb(242, 242, 254);
+  }
+
+  .css-n5xi40{
+    justify-content: center;
+    display: flex;
+  }
