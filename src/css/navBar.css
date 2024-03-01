@@ -46,15 +46,11 @@
 
   @media screen and (max-width: 844px) {
     .cuarto_link{
-      /* margin: auto; */
+      margin: 0 0.5rem ;
     }
 
     .navbar-brand{
-      margin: inherit;
-      margin: 0 0.5rem;
+      margin: initial;
     }
 
-    .pr_link{
-      margin: 0 0.5rem;
-    }
   }
