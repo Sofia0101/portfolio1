@@ -5,6 +5,7 @@ import "./css/icons.css";
 import "./css/proyects.css";
 import "./css/description.css"
 import "./css/aboutme1.css";
+import "./css/body.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -25,7 +26,7 @@ function App() {
   return (
     <>
       <section className="back__img">
-        <div>
+        <div className="all">
           <Navi />
           <main className="content" id="Content" data-scroll="area"></main>
           <div className="content_inner" data-scroll="target"></div>
