@@ -68,16 +68,40 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 850px) {
-  .arg__imagen {
-    height: 124px;
+
+
+@media screen and (max-width: 844px) {
+
+  .home_description{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1rem;
+    width: 388px;
+    text-align: center
   }
 
-  .animation {
-    align-items: center;
+  .home_name{
+    color: #f2f2fe;
+    font-family: Inter Tight,sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 1.3rem;
+    text-align: center;
+
+  } 
+
+  .page{
+    flex-direction: column;
   }
 
-  .siteHeader_label {
-    width: 90%;
-  }
+  .lf-player-container {
+    display: flex;
+    width: 170px;
+
 }
+}
+
+
+  
+
+

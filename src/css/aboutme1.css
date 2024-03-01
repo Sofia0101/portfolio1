@@ -34,3 +34,15 @@
     justify-content: center;
     display: flex;
   }
+
+  @media screen and (max-width: 844px) {
+    .aboutme_p  {
+        width: 100%;
+        text-align: center;
+    }
+
+    .title_aboutme{
+      font-size: 34px;
+    }
+  }
+

@@ -42,3 +42,19 @@
     --_p: 100%;
     --_s: .3s;
   }
+
+
+  @media screen and (max-width: 844px) {
+    .cuarto_link{
+      /* margin: auto; */
+    }
+
+    .navbar-brand{
+      margin: inherit;
+      margin: 0 0.5rem;
+    }
+
+    .pr_link{
+      margin: 0 0.5rem;
+    }
+  }

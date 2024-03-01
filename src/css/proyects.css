@@ -124,3 +124,20 @@
 a:link{
   text-decoration: none;
 }
+
+
+@media screen and (max-width: 844px) {
+  .proyect_img img{
+    width: 282px;
+    height: 132px;
+  }
+
+  .palito{
+    display: none;
+  }
+
+  .my-projects-title{
+   font-size: 34px;
+  }
+
+}
