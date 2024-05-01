@@ -1,48 +1,82 @@
 .aboutme_p {
-    width: 50%;
-  
-    color: #fff;
-    letter-spacing: 2px;
-    display: flex;
-    justify-content: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    padding: 2rem;
-  }
-  
-  
-  .aboutme_div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  
-  .title_aboutme{
-    text-align: center;
+  width: 90%;
 
-    margin-bottom: 3rem;
+  color: #fff;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  padding: 2rem;
+}
+
+.aboutme_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.title_aboutme {
+  text-align: center;
 
   font-family: "Inter Tight", sans-serif;
   font-size: 40px;
   font-weight: normal;
-  color: rgb(242, 242, 254);
+  color: rgb(211, 109, 255);
+
+}
+
+.css-n5xi40 {
+  justify-content: center;
+  display: flex;
+}
+
+.profile__pic {
+  /* margin-top: 70px; */
+  width: 42%;
+}
+
+.profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-desc {
+  display: flex;
+  align-items: end;
+}
+
+@media screen and (max-width: 844px) {
+  .aboutme_p {
+    width: 100%;
+    text-align: center;
   }
 
-  .css-n5xi40{
-    justify-content: center;
-    display: flex;
+  .title_aboutme {
+    font-size: 34px;
+    margin-bottom: 3rem;
   }
 
-  @media screen and (max-width: 844px) {
-    .aboutme_p  {
-        width: 100%;
-        text-align: center;
-    }
-
-    .title_aboutme{
-      font-size: 34px;
-    }
+  .profile {
+    width: 200px;
+    height: 200px;
   }
 
+  .profile__pic {
+    width: auto;
+  }
+
+  .aboutme_div {
+    flex-direction: column-reverse;
+  }
+
+  div .css-n5xi40 {
+    animation: none;
+  }
+}

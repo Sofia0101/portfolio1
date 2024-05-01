@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <section className="back__img">
-        <div className="all">
+        <div>
           <Navi />
           <main className="content" id="Content" data-scroll="area"></main>
           <div className="content_inner" data-scroll="target"></div>
