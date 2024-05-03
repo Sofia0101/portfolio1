@@ -48,9 +48,9 @@
 }
 
 .title-desc {
-  display: flex;
-  align-items: end;
-}
+  display: flex;}
+  /* align-items: flex-end; * Descomentar si el lottie está mal posicionado*/
+
 
 @media screen and (max-width: 844px) {
   .aboutme_p {

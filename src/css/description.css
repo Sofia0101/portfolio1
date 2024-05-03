@@ -6,7 +6,7 @@
 
   color: #fff;
   letter-spacing: 1px;
-  line-height: 2.5rem;
+  line-height: 2.9rem;
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
   font-weight: 400;
@@ -22,11 +22,10 @@
 
 .player {
   overflow: visible;
-  align-self: self-end;
 }
 
 .lf-player-container {
-    display: flex;
+    display: block;
 }
 
 .myproyects_title {
