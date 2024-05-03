@@ -10,7 +10,7 @@ function Proyects() {
   return (
     
     <div className="proyectos_components" id="projects">
-      <h3 className="my-projects-title">My projects<h1 className="palito">|</h1></h3>
+      <h3 className="my-projects-title">My projects</h3>
       
       <div className="primerproyecto">
         <Myproyect

@@ -1,5 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import { Player } from "@lottiefiles/react-lottie-player";
+import TypeIt from "typeit-react";
 
 function Description() {
   return (
@@ -10,7 +11,7 @@ function Description() {
             <h1 className="home_name">
               Hi! <br /> I'm Sofía Fornaroli
             </h1>
-            I'm a Frontend Developer from Buenos Aires, Argentina
+            <TypeIt>  I'm a Frontend Developer from <br /> Buenos Aires, Argentina</TypeIt>
           </p>
         </div>
       </Fade>
