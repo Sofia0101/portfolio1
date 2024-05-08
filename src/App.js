@@ -13,11 +13,8 @@ import Header from "./components/header";
 import Proyects from "./components/proyects";
 import Info from "./components/icons";
 import Navi from "./components/NavBar";
-// import Slides from "./components/Slides";
 import Aboutme from "./components/aboutMe1";
 import Description from "./components/description1";
-
-import { Player } from "@lottiefiles/react-lottie-player";
 
 
 
