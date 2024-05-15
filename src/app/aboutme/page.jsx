@@ -1,11 +1,22 @@
-import { Fade } from "react-awesome-reveal";
+'use client'
+import { createContext } from 'react'
 
+import { Fade } from "react-awesome-reveal";
 import { Player } from "@lottiefiles/react-lottie-player";
-import perfil from "../img/perfil3.jpeg";
+import { Nav } from 'react-bootstrap';
+
+import Navi from '@/components/NavBar';
+import "@/css/aboutme1.css";
+import "@/css/navBar.css";
+import "@/css/background.css";
 
 function Aboutme() {
     return (
-      <section className="about-me"><h3 className="title_aboutme">About me</h3>
+      <section className="back__img">
+
+      <section className="about-me">
+        {/* <Navi /> */}
+        <h3 className="title_aboutme">About me</h3>
         <div className="aboutme_div">
          <div className="title-desc"> 
         <Fade direction="down">  <p className="aboutme_p">
@@ -28,6 +39,8 @@ function Aboutme() {
       
         
       </section>
+      </section>
+
     );
   }
   

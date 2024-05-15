@@ -1,7 +1,7 @@
 import imagen3 from "../img/insta.png";
 import imagen2 from "../img/gh.png";
-import imagen1 from "../img/linkedin1.png";
-import imagen4 from "../img/emaill.png";
+import imagen1 from "../img/linkedin.png";
+import imagen4 from "../img/email.png";
 
 
 function Info(props) {

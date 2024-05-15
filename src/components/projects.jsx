@@ -1,19 +1,21 @@
+'use client'
+import { createContext } from 'react'
+
 import Placeholder from "react-bootstrap/Placeholder";
+import imagenOrg from "@/img/org.jpeg";
+import imagenApeperia from "@/img/apeperia.jpeg";
+import imagenGpt3 from "@/img/imagenGpt3.jpeg";
 
-import imagenOrg from "../img/org.jpeg";
-import imagenApeperia from "../img/apeperia.jpeg";
-import imagenGpt3 from "../img/imagenGpt3.jpeg";
+import Myproject from "@/components/Myprojects";
 
-import Myproyect from "./myproyect";
-
-function Proyects() {
+function Projects() {
   return (
     
     <div className="proyectos_components" id="projects">
       <h3 className="my-projects-title">My projects</h3>
       
       <div className="primerproyecto">
-        <Myproyect
+        <Myproject
           titulo="GPT-3"
           parrafo=""
           imagen={imagenGpt3}
@@ -21,7 +23,7 @@ function Proyects() {
         />
       </div>
       <div className="segundoproyecto">
-        <Myproyect
+        <Myproject
           titulo="Org"
           parrafo=""
           imagen={imagenOrg}
@@ -29,7 +31,7 @@ function Proyects() {
         />
       </div>
       <div className="tercerproyecto">
-        <Myproyect
+        <Myproject
           titulo="Apeperia"
           parrafo=""
           imagen={imagenApeperia}
@@ -41,5 +43,5 @@ function Proyects() {
   );
 }
 
-export default Proyects;
+export default Projects;
 
