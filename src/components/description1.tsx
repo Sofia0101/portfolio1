@@ -5,7 +5,7 @@ import TypeIt from "typeit-react";
 
 function Description() {
   return (
-    <section className="page" data-page="home">
+    <section className="flex px-4 py-8 w-full justify-center" data-page="home">
       <Fade>
         <div>
           <div className="home_description">

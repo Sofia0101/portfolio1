@@ -1,4 +1,4 @@
-function Header (props) {
+function Header () {
     return (
         <header className="siteHeader" id="SiteHeader">
       <div className="Header__t"> 

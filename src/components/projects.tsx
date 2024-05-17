@@ -1,12 +1,12 @@
 'use client'
 import { createContext } from 'react'
 
-import Placeholder from "react-bootstrap/Placeholder";
-import imagenOrg from "@/img/org.jpeg";
-import imagenApeperia from "@/img/apeperia.jpeg";
-import imagenGpt3 from "@/img/imagenGpt3.jpeg";
+// import Placeholder from "react-bootstrap/Placeholder";
+// import imagenOrg from "@/img/org.jpeg";
+// import imagenApeperia from "@/img/apeperia.jpeg";
+// import imagenGpt3 from "@/img/imagenGpt3.jpeg";
 
-import Myproject from "@/components/Myprojects";
+import Myprojects from '@/components/Myprojects';
 
 function Projects() {
   return (
@@ -15,26 +15,31 @@ function Projects() {
       <h3 className="my-projects-title">My projects</h3>
       
       <div className="primerproyecto">
-        <Myproject
+        <Myprojects
           titulo="GPT-3"
+          subtitulo={""}
           parrafo=""
-          imagen={imagenGpt3}
+          imagen="/img/imagenGpt3.jpeg"
           hreflink="https://gpt-3.vercel.app"
         />
       </div>
       <div className="segundoproyecto">
-        <Myproject
+        <Myprojects 
+        
+          subtitulo={""}
           titulo="Org"
           parrafo=""
-          imagen={imagenOrg}
+          imagen="/img/org.jpeg"
           hreflink="https://org-tau-ashy.vercel.app"
+        
         />
       </div>
       <div className="tercerproyecto">
-        <Myproject
+        <Myprojects
           titulo="Apeperia"
+          subtitulo={""}
           parrafo=""
-          imagen={imagenApeperia}
+          imagen="/img/apeperia.jpeg"
           hreflink="https://ap-shop.vercel.app"
           
         />
