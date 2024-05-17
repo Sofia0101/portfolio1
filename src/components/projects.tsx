@@ -1,38 +1,45 @@
-import Placeholder from "react-bootstrap/Placeholder";
+'use client'
+import { createContext } from 'react'
 
-import imagenOrg from "../img/org.jpeg";
-import imagenApeperia from "../img/apeperia.jpeg";
-import imagenGpt3 from "../img/imagenGpt3.jpeg";
+// import Placeholder from "react-bootstrap/Placeholder";
+// import imagenOrg from "@/img/org.jpeg";
+// import imagenApeperia from "@/img/apeperia.jpeg";
+// import imagenGpt3 from "@/img/imagenGpt3.jpeg";
 
-import Myproyect from "./myproyect";
+import Myprojects from '@/components/Myprojects';
 
-function Proyects() {
+function Projects() {
   return (
     
     <div className="proyectos_components" id="projects">
       <h3 className="my-projects-title">My projects</h3>
       
       <div className="primerproyecto">
-        <Myproyect
+        <Myprojects
           titulo="GPT-3"
+          subtitulo={""}
           parrafo=""
-          imagen={imagenGpt3}
+          imagen="/img/imagenGpt3.jpeg"
           hreflink="https://gpt-3.vercel.app"
         />
       </div>
       <div className="segundoproyecto">
-        <Myproyect
+        <Myprojects 
+        
+          subtitulo={""}
           titulo="Org"
           parrafo=""
-          imagen={imagenOrg}
+          imagen="/img/org.jpeg"
           hreflink="https://org-tau-ashy.vercel.app"
+        
         />
       </div>
       <div className="tercerproyecto">
-        <Myproyect
+        <Myprojects
           titulo="Apeperia"
+          subtitulo={""}
           parrafo=""
-          imagen={imagenApeperia}
+          imagen="/img/apeperia.jpeg"
           hreflink="https://ap-shop.vercel.app"
           
         />
@@ -41,5 +48,5 @@ function Proyects() {
   );
 }
 
-export default Proyects;
+export default Projects;
 

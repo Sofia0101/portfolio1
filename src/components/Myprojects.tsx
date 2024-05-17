@@ -1,7 +1,9 @@
+
+
 import React from 'react';
 
 
-const Myproyect = ({titulo, parrafo, subtitulo, imagen, hreflink}) => {
+const Myprojects = ({titulo, parrafo, subtitulo, imagen, hreflink}) => {
   return (
 
 
@@ -27,28 +29,4 @@ const Myproyect = ({titulo, parrafo, subtitulo, imagen, hreflink}) => {
       }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//     <div className="gpt3__features-container__feature">
-//     <div className="gpt3__features-container__feature-title">
-//       <div />
-//       <h1>{titulo}</h1>
-//     </div>
-//     <div className="gpt3__features-container_feature-text">
-//       <p>{parrafo}</p>
-//     </div>
-//   </div>
-
-  
-export default Myproyect;
+export default Myprojects;

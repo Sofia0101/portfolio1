@@ -48,14 +48,6 @@
 
 }
 
-.page {
-  display: flex;
-  padding: 1rem 2rem;
-  margin-top: 100px;
-  width: 100%;
-  justify-content: center;
-}
-
 .animation {
   display: flex;
   justify-content: center;
