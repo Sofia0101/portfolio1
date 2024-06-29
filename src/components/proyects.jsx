@@ -3,6 +3,7 @@ import Placeholder from "react-bootstrap/Placeholder";
 import imagenOrg from "../img/org.jpeg";
 import imagenApeperia from "../img/apeperia.jpeg";
 import imagenGpt3 from "../img/imagenGpt3.jpeg";
+import imagenBelo from "../img/belo.jpg";
 
 import Myproyect from "./myproyect";
 
@@ -10,8 +11,19 @@ function Proyects() {
   return (
     
     <div className="proyectos_components" id="projects">
-      <h3 className="my-projects-title">My projects</h3>
+      <h3 className="my-projects-title">Some of my projects</h3>
       
+
+
+      <div className="00proyecto">
+        <Myproyect
+          titulo="Belo Copy"
+          parrafo=""
+          imagen={imagenBelo}
+          hreflink="https://belocopy.vercel.app"
+        />
+      </div>
+
       <div className="primerproyecto">
         <Myproyect
           titulo="GPT-3"

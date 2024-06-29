@@ -6,6 +6,10 @@ import imagen4 from "../img/emaill.png";
 
 function Info(props) {
   return (
+    <>
+     <div>
+       <h2 className="contactme">Contact me:</h2>
+       </div>
     <div className="icons__list" id="contact">
       <div>
       <a href="https://www.linkedin.com/in/sofía-fornaroli
@@ -21,7 +25,10 @@ function Info(props) {
       <div>
        <a href="mailto: sofiafornaroli98@gmail.com"> <img className="email_icon" src={imagen4} alt="email" /></a>
       </div>
+   
     </div>
+      
+        </>
   );
 }
 

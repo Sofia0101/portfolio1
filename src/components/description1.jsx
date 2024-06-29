@@ -2,6 +2,9 @@
 import { Fade } from "react-awesome-reveal";
 import { Player } from "@lottiefiles/react-lottie-player";
 import TypeIt from "typeit-react";
+import curriculum from "../img/cv.pdf";
+
+
 
 function Description() {
   return (
@@ -28,6 +31,15 @@ function Description() {
         
        
       </div>
+
+    {/* <div className="curriculum">
+      <button>
+        <a download={curriculum} href="">Download my CV</a>
+      </button>
+
+      
+    </div> */}
+
     </section>
   );
 }
