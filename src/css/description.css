@@ -1,4 +1,11 @@
+.page
+  {
+    /* global 94%+ browsers support */
+    background: linear-gradient(187deg, rgb(64, 0, 141) 0%, rgb(0, 0, 0) 18%);
+}
+
 .home_description {
+  min-height: 82vh;
   width: 755px;
   padding: 1rem 2rem;
   display: flex;

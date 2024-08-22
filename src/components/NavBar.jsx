@@ -8,13 +8,13 @@ function Navi() {
           Home
         </Navbar.Brand>
     
-          <Nav.Link className="seg_link hover-3" href="#projects">
+          <Nav.Link className="seg_link hover-3" href="/projects">
             Projects
           </Nav.Link>
-          <Nav.Link className="ter_link hover-3" href="#contact">
+          <Nav.Link className="ter_link hover-3" href="/contact">
             Contact
           </Nav.Link>
-          <Nav.Link className="cuarto_link hover-3" href="#">
+          <Nav.Link className="cuarto_link hover-3" href="/aboutme">
             About me
           </Nav.Link>
    

@@ -19,7 +19,6 @@ form{
     color: grey;
 }
 
-.form-control{}
 
 .contactme{
     display: flex;
@@ -29,4 +28,5 @@ form{
     font-size: x-large;
     margin-bottom: -1rem;
     margin-top: 3rem;
+    
 }

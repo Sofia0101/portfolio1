@@ -10,7 +10,7 @@ import Myproyect from "./myproyect";
 function Proyects() {
   return (
     
-    <div className="proyectos_components" id="projects">
+    <div className="proyectos_components" id="projects" data-page="projects">
       <h3 className="my-projects-title">Some of my projects</h3>
       
 
@@ -35,7 +35,7 @@ function Proyects() {
       <div className="segundoproyecto">
         <Myproyect
           titulo="- ORG -"
-          parrafo=""
+          parrafo="This project was created with Javascript, CSS and HTML. It shows the intention of creating an interactive page. My goal was to create work teams, creating a professional and eye-catching environment."
           imagen={imagenOrg}
           hreflink="https://org-tau-ashy.vercel.app"
         />
@@ -43,7 +43,9 @@ function Proyects() {
       <div className="tercerproyecto">
         <Myproyect
           titulo="- APEPERIA -"
-          parrafo=""
+          parrafo="Project created with Javascript, CSS and HTML.
+The goal was to create an attractive interface that offers products or services, in this case programming courses.
+It includes cards with prices and contact information for further information."
           imagen={imagenApeperia}
           hreflink="https://ap-shop.vercel.app"
           

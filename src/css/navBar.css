@@ -1,4 +1,6 @@
 .navbar {
+  background: linear-gradient(187deg, rgb(64, 0, 141) 0%, rgb(0, 0, 0) 18%);
+
     font-weight: 700;
     font-size: larger;    
     color: beige;
@@ -6,7 +8,10 @@
 
 }
 
+main .content
+{  background: linear-gradient(187deg, rgb(64, 0, 141) 0%, rgb(0, 0, 0) 18%);
 
+}
 .navbar-brand{
     /* padding-left: 70%; */
     margin: auto;

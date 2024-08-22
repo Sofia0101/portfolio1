@@ -15,6 +15,9 @@ import Info from "./components/icons";
 import Navi from "./components/NavBar";
 import Aboutme from "./components/aboutMe1";
 import Description from "./components/description1";
+import { Routes, Route } from 'react-router-dom';
+import Myproyect from "./components/myproyect";
+
 
 
 
@@ -22,20 +25,18 @@ import Description from "./components/description1";
 function App() {
   return (
     <>
-      <section className="back__img">
-        <div>
+  
+
           <Navi />
-          <main className="content" id="Content" data-scroll="area"></main>
-          <div className="content_inner" data-scroll="target"></div>
-          <Description />
-           <Proyects /> 
-          <div className="back-aboutme">
-          <Aboutme />
-          
-          <Info />
-        </div>
-         </div>
-      </section>
+          <Routes>
+          <Route path="/" element={<Description />} />
+          <Route path="aboutme" element={<Aboutme />} />
+          <Route path="/home" element={<Description />} />
+          <Route path="/projects" element={<Proyects />} />
+          <Route path="/contact" element={<Info />} />
+
+                   </Routes>
+     
     </>
   );
 }

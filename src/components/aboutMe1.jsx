@@ -1,11 +1,10 @@
 import { Fade } from "react-awesome-reveal";
 
 import { Player } from "@lottiefiles/react-lottie-player";
-import perfil from "../img/perfil3.jpeg";
 
 function Aboutme() {
     return (
-      <section className="about-me"><h3 className="title_aboutme">About me</h3>
+      <section className="about-me" data-page="aboutme"><h3 className="title_aboutme">About me</h3>
         <div className="aboutme_div">
          <div className="title-desc"> 
         <Fade direction="down">  <p className="aboutme_p">
