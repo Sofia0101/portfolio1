@@ -6,21 +6,22 @@ const Myproyect = ({titulo, parrafo, subtitulo, imagen, hreflink}) => {
 
 
 
-    <div className="myproyects_list" >
-      <a href={hreflink}>
+    <div className="myproyects_list" data-page="projects">
+      
       <div className="proyect_img">
+      <a href={hreflink}>
         <img src={imagen} alt="proyect" />
+        </a>
       </div>
       <div className="contenido_proyectos">
         <h4>{titulo}</h4>
         <h1>
           {subtitulo}
         </h1>
-        <p>
+        <p className='myprojects_p'>
          {parrafo}
         </p>
       </div>
-      </a>
     </div>
 
         );

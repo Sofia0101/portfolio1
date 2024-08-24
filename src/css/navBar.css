@@ -1,56 +1,56 @@
 .navbar {
-    font-weight: 700;
-    font-size: larger;    
-    color: beige;
-    justify-content: space-evenly;
-
+  font-weight: 700;
+  font-size: larger;
+  color: beige;
+  justify-content: space-evenly;
 }
 
-
-.navbar-brand{
-    /* padding-left: 70%; */
-    margin: auto;
-    
+.navbar-brand {
+  margin: auto;
 }
-.pr_link, .seg_link, .ter_link, .cuarto_link{
-    color: beige;
-    text-align: center;
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 23px;
+.pr_link,
+.seg_link,
+.ter_link,
+.cuarto_link {
+  color: beige;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 23px;
 }
 
-.seg_link, .ter_link, .cuarto_link{
-    margin: 0 0.5rem;
-
+.seg_link,
+.ter_link,
+.cuarto_link {
+  margin: 0 0.5rem;
 }
 
 .hover-3 {
-    --b: 0.1em;   /* the thickness of the line */
-    --c: #ffffff; /* the color */
-    
-    color: #0000;
-    padding-block: var(--b);
-    background: 
-      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
-      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
-    -webkit-background-clip: text,padding-box;
-            background-clip: text,padding-box;
-    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+  --b: 0.1em; /* the thickness of the line */
+  --c: #ffffff; /* the color */
+
+  color: #0000;
+  padding-block: var(--b);
+  background: linear-gradient(var(--c) 50%, #000 0) 0%
+      calc(100% - var(--_p, 0%)) / 100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p, 0%) / var(--_p, 0%) var(--b)
+      no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.3s var(--_s, 0s) linear,
+    background-size 0.3s calc(0.3s - var(--_s, 0s));
+}
+.hover-3:hover {
+  --_p: 100%;
+  --_s: 0.3s;
+}
+
+@media screen and (max-width: 844px) {
+  .cuarto_link {
+    margin: 0 0.5rem;
   }
-  .hover-3:hover {
-    --_p: 100%;
-    --_s: .3s;
+
+  .navbar-brand {
+    margin: initial;
   }
-
-
-  @media screen and (max-width: 844px) {
-    .cuarto_link{
-      margin: 0 0.5rem ;
-    }
-
-    .navbar-brand{
-      margin: initial;
-    }
-
-  }
+}

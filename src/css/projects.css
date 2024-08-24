@@ -1,6 +1,6 @@
 .myproyects_list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 1rem;
 }
 
@@ -23,6 +23,8 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  width: 270px;
+  margin: 0 2rem;
   }
 
 .contenido_proyectos h4 {
@@ -32,11 +34,9 @@
 
   text-align: center;
   align-items: center;
-  font-family: "Inter Tight", sans-serif;
+  font-family: monospace, 'Courier New', Courier;
   font-weight: 800;
-  background: whitesmoke;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+color: #98649c;  
 }
 .contenido_proyectos h4:last-child {
     color: #ff8A71;
@@ -49,8 +49,9 @@
     margin: 1rem 0;
 }
 .contenido_proyectos p {
-    color: var(--color-text);
+    color: #8d78a0;
     font-family: var(--font-family);
+
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -68,7 +69,6 @@
 .proyectos_components{
   align-items: center;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
   margin: 10%;
@@ -85,15 +85,27 @@
   font-size: 40px;
   font-weight: normal;
   color: rgb(242, 242, 254);
+  background: linear-gradient(to left, #80d7ff 45%, #ad56dd 66%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 
   
 }
 
 
-a:link{
-  text-decoration: none;
+.belo{
+  color: blueviolet;
 }
 
+a:link{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.myprojects_p{
+width: 270px;  
+}
 
 @media screen and (max-width: 844px) {
   .proyect_img img{
@@ -104,5 +116,6 @@ a:link{
   .my-projects-title{
    font-size: 34px;
   }
+
 
 }

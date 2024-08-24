@@ -1,4 +1,12 @@
-.home_description {
+.page
+  {
+    /* global 94%+ browsers support */
+    background: rgb(0,0,0);
+background: linear-gradient(353deg, rgba(0,0,0,1) 33%, rgba(6,0,20,1) 47%, rgba(0,0,0,1) 68%);
+  }
+
+    .home_description {
+  min-height: 82vh;
   width: 755px;
   padding: 1rem 2rem;
   display: flex;
@@ -28,7 +36,7 @@
     display: block;
 }
 
-.myproyects_title {
+.myproyects-title {
   text-align: center;
   font-family: "Inter Tight", sans-serif;
   display: flex;

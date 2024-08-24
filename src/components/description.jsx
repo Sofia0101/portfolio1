@@ -8,7 +8,7 @@ import curriculum from "../img/cv.pdf";
 
 function Description() {
   return (
-    <section className="page" data-page="home">
+    <section className="page" data-page="home" >
       <Fade>
         <div>
           <p className="home_description">
