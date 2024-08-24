@@ -24,9 +24,29 @@ form{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    color: #5ab5fe;
+    color: #ffffff;
     font-size: x-large;
     margin-bottom: -1rem;
     margin-top: 3rem;
     
 }
+
+.icons__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 70px 120px 26px 120px;
+    
+}
+
+
+
+.icon{
+    font-size: 20px;
+}
+
+.instagram_icon, .github_icon, .email_icon, .linkedin_icon{
+    width: 37px;
+    margin: 0 15px;
+}
+

@@ -7,7 +7,7 @@ import imagen4 from "../img/emaill.png";
 function Info(props) {
   return (
     <>
-     <div>
+     <div className="contactme">
        <h2 className="contactme">Contact me:</h2>
        </div>
     <div className="icons__list" id="contact">

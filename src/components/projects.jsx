@@ -5,9 +5,9 @@ import imagenApeperia from "../img/apeperia.jpeg";
 import imagenGpt3 from "../img/imagenGpt3.jpeg";
 import imagenBelo from "../img/belo.jpg";
 
-import Myproyect from "./myproyect";
+import Myproject from "./myproject";
 
-function Proyects() {
+function Projects() {
   return (
     
     <div className="proyectos_components" id="projects" data-page="projects">
@@ -16,7 +16,7 @@ function Proyects() {
 
 
       <div className="00proyecto">
-        <Myproyect
+        <Myproject
           titulo="- BELO COPY -" className="belo" 
           parrafo="This is a page I created using Next.js, Typescript and Tailwind CSS. My goal was to create the original Belo page, using creativity to achieve components recreating the same styles of colors, typography, sizes."
           imagen={imagenBelo}
@@ -25,7 +25,7 @@ function Proyects() {
       </div>
 
       <div className="primerproyecto">
-        <Myproyect
+        <Myproject
           titulo="- GPT-3 -"
           parrafo="I created the GPT-3 project using Javascript and React.js. My goal was to organize and align the components so that they would catch the eye and use a specific color scheme to achieve uniformity."
           imagen={imagenGpt3}
@@ -33,7 +33,7 @@ function Proyects() {
         />
       </div>
       <div className="segundoproyecto">
-        <Myproyect
+        <Myproject
           titulo="- ORG -"
           parrafo="This project was created with Javascript, CSS and HTML. It shows the intention of creating an interactive page. My goal was to create work teams, creating a professional and eye-catching environment."
           imagen={imagenOrg}
@@ -41,7 +41,7 @@ function Proyects() {
         />
       </div>
       <div className="tercerproyecto">
-        <Myproyect
+        <Myproject
           titulo="- APEPERIA -"
           parrafo="Project created with Javascript, CSS and HTML.
 The goal was to create an attractive interface that offers products or services, in this case programming courses.
@@ -55,5 +55,5 @@ It includes cards with prices and contact information for further information."
   );
 }
 
-export default Proyects;
+export default Projects;
 
