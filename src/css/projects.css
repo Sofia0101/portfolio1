@@ -108,6 +108,15 @@ width: 270px;
 }
 
 @media screen and (max-width: 844px) {
+
+.myproyects_list{
+  flex-direction: column;
+}
+
+.proyect_img{
+  justify-content: center;
+}
+
   .proyect_img img{
     width: 282px;
     height: 132px;
