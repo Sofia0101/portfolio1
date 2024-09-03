@@ -80,12 +80,16 @@ background: linear-gradient(353deg, rgba(0,0,0,1) 33%, rgba(6,0,20,1) 47%, rgba(
 @media screen and (max-width: 844px) {
 
   .home_description{
+    min-height: 0%;
     font-size: 20px;
     font-weight: 400;
     padding: 1rem;
     width: 388px;
-    text-align: center
+    text-align: center;
+    margin: 4rem;
   }
+
+
 
   .home_name{
     color: #f2f2fe;
@@ -99,11 +103,14 @@ background: linear-gradient(353deg, rgba(0,0,0,1) 33%, rgba(6,0,20,1) 47%, rgba(
 
   .page{
     flex-direction: column;
+    margin: 0%;
   }
 
   .lf-player-container {
+    position: relative;
     display: flex;
-    width: 170px;
+    width: 270px;
+    margin-top: 1rem;
 
 }
 }
