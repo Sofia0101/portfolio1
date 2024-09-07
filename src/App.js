@@ -24,7 +24,7 @@ function App() {
   return (
     <>
   
-  <div className="bg-home">
+  {/* <div className="bg-home"> */}
           <Navi />
           <Routes>
           <Route path="/" element={<Description />} />
@@ -34,7 +34,7 @@ function App() {
 
                    </Routes>
                <Info />
-               </div>
+               {/* </div> */}
 
     </>
   );

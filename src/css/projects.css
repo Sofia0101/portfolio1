@@ -4,6 +4,24 @@
   padding: 1rem;
 }
 
+.myproyects-title {
+  text-align: center;
+  font-family: "Inter Tight", sans-serif;
+  display: flex;
+  list-style: none;
+
+  font-weight: 800;
+  background: #80d7ff;
+  background: linear-gradient(to left, #80d7ff 45%, #ad56dd 66%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
 .proyect_img {
     display: flex;

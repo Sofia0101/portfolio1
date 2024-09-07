@@ -2,7 +2,7 @@ import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
 
 function Navi() {
   return (
-    <Navbar bg="highlight" data-bs-theme="dark">
+    <Navbar bg="highlight" data-bs-theme="light">
       <Container>
         <Navbar.Brand className="pr_link" href="/">
           Home
