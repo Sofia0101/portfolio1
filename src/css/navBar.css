@@ -1,16 +1,17 @@
-.navbar {
+div .navbar {
   flex-direction: row;
   font-weight: 700;
   font-size: larger;
   color: black;
-  justify-content: space-evenly;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
 
 }
 
 .drop-menu{
   flex-direction: row;
   display: flex;
-  margin: auto;
   padding: auto;
 
 }
@@ -51,11 +52,10 @@ list-style: none;}
 }
 
 @media screen and (max-width: 844px) {
-  .cuarto_link {
-    margin: 0 0.5rem;
-  }
 
-  .navbar-brand {
-    margin: initial;
-  }
+
+  div .navbar {
+    
+justify-content: center;  
+}
 }
