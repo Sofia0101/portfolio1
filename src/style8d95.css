@@ -127,7 +127,7 @@ body.is-monospaced {
     height: 100%;
     overflow: hidden;
     background-color: var(--c-bg);
-    color: #fff;
+    color: #635151;
     white-space: nowrap;
     transition-property: background-color;
     transition-duration: .9s;

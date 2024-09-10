@@ -10,19 +10,22 @@ function Description() {
   return (
     <section className="page" data-page="home" >
       <Fade>
-        <div>
-          <p className="home_description">
+        <div className="my-desc">
             <h1 className="home_name">
-              Hi! <br /> I'm Sofía Fornaroli
+              Hi! I'm <br /> Sofía Fornaroli <br />
+              Welcome to my 
             </h1>
-            <TypeIt>  I'm a Frontend Developer from <br /> Buenos Aires, Argentina</TypeIt>
+            <h1 className="home_name2" >portfolio</h1>
+            <p className="home_description">
+
+            <TypeIt>  I'm a Frontend Developer from Argentina</TypeIt>
           </p>
         </div>
       </Fade>
 
       <div className="animation home">
         <Player
-          src="https://lottie.host/c76a28e1-2039-43fd-b534-28d9c8e80404/aFA3ViLYHZ.json"
+          src="https://lottie.host/03b99df9-d50c-4051-b460-4690ce245deb/TCUIusZvjE.json"
           className="player"
           loop
           autoplay

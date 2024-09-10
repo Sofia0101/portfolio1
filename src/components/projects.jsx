@@ -11,13 +11,13 @@ function Projects() {
   return (
     
     <div className="proyectos_components" id="projects" data-page="projects">
-      <h3 className="my-projects-title">Some of my projects</h3>
+      <h3 className="text-focus-in my-projects-title">Some of my projects</h3>
       
 
 
-      <div className="00proyecto">
+      <div className="proyecto0">
         <Myproject
-          titulo="- BELO COPY -" className="belo" 
+          titulo="- BELO COPY -" 
           parrafo="This is a page I created using Next.js, Typescript and Tailwind CSS. My goal was to create the original Belo page, using creativity to achieve components recreating the same styles of colors, typography, sizes."
           imagen={imagenBelo}
           hreflink="https://belocopy.vercel.app"

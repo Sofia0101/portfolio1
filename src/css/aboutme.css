@@ -1,13 +1,13 @@
 .aboutme_p {
   width: 90%;
-
-  color: #fff;
-  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  -webkit-text-stroke-width: thin;
+  color: #000000;
+  letter-spacing: 0.5px;
   display: flex;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 23px;
-  font-weight: 400;
+ font-size: 24px;
+  font-weight: 100;
   padding: 2rem;
 }
 
@@ -20,13 +20,13 @@
 }
 
 .title_aboutme {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
   text-align: center;
-
-  font-family: "Inter Tight", sans-serif;
-  font-size: 40px;
-  font-weight: normal;
-  color: rgb(211, 109, 255);
-
+  margin-top: 80px;
+  font-size: 30px;
+  color: black;
 }
 
 .css-n5xi40 {
