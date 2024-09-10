@@ -18,14 +18,14 @@ function Description() {
             <h1 className="home_name2" >portfolio</h1>
             <p className="home_description">
 
-            <TypeIt>  I'm a Frontend Developer from Buenos Aires, Argentina</TypeIt>
+            <TypeIt>  I'm a Frontend Developer from Argentina</TypeIt>
           </p>
         </div>
       </Fade>
 
       <div className="animation home">
         <Player
-          src="https://lottie.host/c76a28e1-2039-43fd-b534-28d9c8e80404/aFA3ViLYHZ.json"
+          src="https://lottie.host/03b99df9-d50c-4051-b460-4690ce245deb/TCUIusZvjE.json"
           className="player"
           loop
           autoplay
