@@ -108,34 +108,7 @@ a:link{
 width: 270px;  
 }
 
-@media screen and (max-width: 844px) {
 
-  .contenido_proyectos p{
-    text-align: center;
-  }
-
-.myprojects_list{
-  flex-direction: column;
-}
-
-.link-proj{
-  display: flex;
-  justify-content: center;
-}
-
-  .project_img img{
-    width: 282px;
-    height: 132px;
-  }
-  
-  .my-projects-title{
-   font-size: 20px;
-   margin: 2rem;
-  }
-
-
-
-}
 
 
 /* ----------------------------------------------

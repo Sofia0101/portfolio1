@@ -4,6 +4,7 @@ import imagenOrg from "../img/org.jpeg";
 import imagenApeperia from "../img/apeperia.jpeg";
 import imagenGpt3 from "../img/imagenGpt3.jpeg";
 import imagenBelo from "../img/belo.jpg";
+import Button from "./btn.tsx";
 
 import Myproject from "./myproject";
 
@@ -16,10 +17,7 @@ function Projects() {
 
 
       <div className="proyecto0">
-        <Myproject
-          titulo="- BELO COPY -" 
-          parrafo="This is a page I created using Next.js, Typescript and Tailwind CSS. My goal was to create the original Belo page, using creativity to achieve components recreating the same styles of colors, typography, sizes."
-          imagen={imagenBelo}
+        <Button
           hreflink="https://belocopy.vercel.app"
         />
       </div>
