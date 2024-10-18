@@ -1,45 +1,17 @@
-import React from 'react';
+import React from "react";
 
-
-const Myproyect = ({titulo, parrafo, subtitulo, imagen, hreflink}) => {
+const Myproyect = ({ titulo, parrafo, subtitulo, imagen, hreflink }) => {
   return (
-
-
-
     <div className="myprojects_list" data-page="projects">
-      
-      <div className="project_img">
-      <a className='link-proj' href={hreflink}>
-        <img className='proj-img' src={imagen} alt="project" />
+      <div className="button-74" role="button">
+        <a href={hreflink}>
+          {" "}
+          <button>{titulo}</button>
         </a>
       </div>
-      <div className="contenido_proyectos">
-        <h4>{titulo}</h4>
-        <h1>
-          {subtitulo}
-        </h1>
-        <p className='myprojects_p'>
-         {parrafo}
-        </p>
-      </div>
     </div>
-
-        );
-      }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  );
+};
 
 //     <div className="gpt3__features-container__feature">
 //     <div className="gpt3__features-container__feature-title">
@@ -51,5 +23,4 @@ const Myproyect = ({titulo, parrafo, subtitulo, imagen, hreflink}) => {
 //     </div>
 //   </div>
 
-  
 export default Myproyect;
