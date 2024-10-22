@@ -40,6 +40,10 @@ list-style: none;}
   margin: 0 0.5rem;
 }
 
+a:link{
+  color: #0f0e0e;
+}
+
 .hover-3 {
   --b: 0.1em; /* the thickness of the line */
   --c: #0f0e0e; /* the color */
